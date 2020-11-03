@@ -9,10 +9,12 @@ class Tickr(object):
 		self.printer.charcode('USA')
 		self.printer.set(flip=flip)
 
-	def printImage(self, filepath):
+	def printImage(self, filepath, align='CENTER'):
+		self.printer.set(align=align.upper())
 		self.printer.image(filepath)
 
-	def printQrCode(self, content, size=9):
+	def printQrCode(self, content, size=9, align='CENTER'):
+		self.printer.set(align=align.upper())
 		self.printer.qr(content,size=int(size))
 
 	def printText(self,text,align='LEFT', font='A', bold=False, underline=False, size=1, invert=False):

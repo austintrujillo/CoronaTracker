@@ -39,7 +39,6 @@ if printTicker:
 		tkr.printText(str('CASE COUNT: ' + data[1]), align='CENTER')
 		tkr.printText(str('TOTAL CASES: ' + data[2]), align='CENTER')
 		tkr.printText(str('7-DAY AVG: ' + data[3]), align='CENTER')
-		tkr.printText(str(''), align='CENTER')
 		tkr.printQrCode(url)
 		tkr.finishTicker()
 	except:
