@@ -34,6 +34,7 @@ if printTicker:
 		tkr = Tickr()
 		tkr.printText('COVID-19 REPORT',align='CENTER',bold=True)
 		tkr.printSpace()
+		tkr.printText(str('LOCATION: UTAH, USA'), align='CENTER')
 		tkr.printText(str('REPORT DATE: ' + data[0]), align='CENTER')
 		tkr.printText(str('CASE COUNT: ' + data[1]), align='CENTER')
 		tkr.printText(str('TOTAL CASES: ' + data[2]), align='CENTER')
