@@ -18,4 +18,4 @@ This applet is ran as a service on the Pi along with [IPAWS](https://github.com/
 
 #### Example Data
 
-![Example Data](/.git/example.png)
+![Example Data](/example/example.png)
